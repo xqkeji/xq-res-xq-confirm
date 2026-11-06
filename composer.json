@@ -1,5 +1,5 @@
 {
-    "name": "xqkeji/xq-com-xq-confirm",
+    "name": "xqkeji/xq-res-xq-confirm",
     "description": "基于Bootstrap5的Modal组件实现确认提示框，支持确认按钮、取消按钮的回调，同时也可以自动确认和自动取消，不依赖Jquery库文件和Vue、React等框架技术的PHP的Composer包。",
     "type": "library",
     "license": "SSPL-1.0",
@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-xq-confirm/src/":"resource/xq-confirm/"
+                    "vendor/xqkeji/xq-res-xq-confirm/src/":"resource/xq-confirm/"
                 }]
             }
         ],
@@ -32,7 +32,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-xq-confirm/src/":"resource/xq-confirm/"
+                    "vendor/xqkeji/xq-res-xq-confirm/src/":"resource/xq-confirm/"
                 }]
             }
         ],
