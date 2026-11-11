@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-xq-confirm/src/":"resource/xq-confirm/"
+                    "vendor/xqkeji/xq-res-xq-confirm/src/":"www/assets/xq-confirm/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "resource/xq-confirm/":"resource/xq-confirm/"
+                    "www/assets/xq-confirm/":"www/assets/xq-confirm/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-xq-confirm/src/":"resource/xq-confirm/"
+                    "vendor/xqkeji/xq-res-xq-confirm/src/":"www/assets/xq-confirm/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "resource/xq-confirm/":"resource/xq-confirm/"
+                    "www/assets/xq-confirm/":"www/assets/xq-confirm/"
                 }]
             }
         ]
